@@ -13,12 +13,12 @@
 // path planner class
 class PathPlanner{
 
-	public:
-		// Destructor
-		virtual ~PathPlanner(); 
+  public:
+    // Destructor
+    virtual ~PathPlanner(); 
 
-		// Change Lane, 0 is left, 1 middle and 2 the right one
-		void changeLane(int lane); 
+    // Change Lane, 0 is left, 1 middle and 2 the right one
+    void changeLane(int lane); 
 };
 
 #endif //PATHPLANNER_H
